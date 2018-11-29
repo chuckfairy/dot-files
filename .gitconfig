@@ -1,0 +1,17 @@
+[user]
+    email = charlieabeling@gmail.com
+    name = chuckfairy
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+    ui = true
+    pager = true
+
+[push]
+    default = current
+
+[core]
+    editor = vim
