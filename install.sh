@@ -1,11 +1,11 @@
 #!/bin/bash
 
 dir=$( dirname $0 )
-ln -s $dir/.gdbinit ~/.gdbinit
-ln -s $dir/.bash_profile ~/.bash_profile
+cp $dir/.gdbinit $HOME/.gdbinit
+cp $dir/.bash_profile $HOME/.bash_profile
 
-ln -s $dir/.gitconfig ~/.gitconfig
+cp $dir/.gitconfig $HOME/.gitconfig
 
 # Vim Install
-git clone https://github.com/chuckfairy/vim-files ~/.vim
-~/.vim/install.sh
+git clone https://github.com/chuckfairy/vim-files $HOME/.vim
+$HOME/.vim/install.sh
