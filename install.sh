@@ -5,6 +5,7 @@ cp $dir/.gdbinit $HOME/.gdbinit
 cp $dir/.bash_profile $HOME/.bash_profile
 
 cp $dir/.gitconfig $HOME/.gitconfig
+cp $dir/.xbindkeysrc $HOME/.xbindkeysrc
 
 # Vim Install
 git clone https://github.com/chuckfairy/vim-files $HOME/.vim
